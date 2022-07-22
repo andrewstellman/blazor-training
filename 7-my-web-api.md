@@ -1,6 +1,6 @@
 # My_Web_API project
 
-Here's all of the code that you can copy and paste for the My_Web_API project. Each slide in the training deck has a corresponding section in this page.
+Here's all of the code that you can copy and paste for the My_Web_API project in Part 4. Each slide in the training deck has a corresponding section in this page.
 
 ## Add a “Hello, world!” endpoint
 
