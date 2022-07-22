@@ -44,7 +44,7 @@ And if you want to do a deeper dive on C# concepts, check out **Head First C#** 
 
 All of the source code and graphics used by the source code is licensed under the [MIT License](https://github.com/head-first-csharp/fourth-edition/blob/master/LICENSE).
 
-PDFs, cover, and other written book material © 2021 Andrew Stellman and Jennifer Greene, all rights reserved.
+Slides, source code, and written material © 2022 Stellman and Greene consulting LLC, all rights reserved.
 
 Cover art by [Jose Marzan Jr.](http://josemarzan.com/) ([@JoseMarzan](https://twitter.com/JoseMarzan)).
 
