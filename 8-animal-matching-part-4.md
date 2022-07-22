@@ -13,7 +13,7 @@ app.MapGet("/hello",
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-var app = builder.Build();
+var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
@@ -30,7 +30,7 @@ builder.Services.AddHttpClient();
 var baseUrls = builder.WebHost
        .GetSetting(WebHostDefaults.ServerUrlsKey);
 var baseUrl = (baseUrls ?? "").Split(";").First();
-builder.Services.AddScoped(sp =>
+builder.Services.AddScoped(sp =>
     new HttpClient
     {
         BaseAddress = new Uri(baseUrl)
