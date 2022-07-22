@@ -48,3 +48,69 @@ Change the HTML markup to style the timestamp differently – try each of these:
             </NavLink>
         </div>
 ```
+
+### Add a field and an event handler method
+
+```razor
+@code {
+
+    private string displayValue = "";
+
+    private void UpdateValue(ChangeEventArgs e)
+    {
+        displayValue = e.Value.ToString();
+    }
+
+}
+```
+
+### Here’s the rest of the HTML code for the page
+
+```razor
+<div class="container">
+    <div class="row">
+      <h1>Experiment with controls</h1>
+    </div>
+    <div class="row mt-2">
+       <div class="col">
+          Enter text: 
+       </div>
+       <div class="col">
+          <input type="text" class="form-control"
+                 @onchange="UpdateValue"/>
+       </div>
+    </div>
+    <div class="row mt-5">
+       <h2>
+          Here's the value: <strong>@displayValue</strong>
+       </h2> 
+    </div>
+</div>
+```
+
+
+### Add a slider (or “range”) control to enter numbers
+
+```razor
+<div class="row mt-2">
+    <div class="col">
+        Pick a number: 
+    </div>
+    <div class="col">
+        <input type="range" class="form-control"
+         @onchange="UpdateNumericValue"/>
+    </div>
+</div>
+```
+
+### Add the event handler for the slider control
+
+```razor
+private void UpdateNumericValue(ChangeEventArgs e)
+{
+    if (int.TryParse(e.Value.ToString(), out int result))
+    {
+        displayValue = result.ToString();
+    }
+}
+```
