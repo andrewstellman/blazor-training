@@ -36,3 +36,16 @@ There are also links to the source code for individual projects in the files wit
 
 Interested in learning more? Follow me on Twitter: [@AndrewStellman](https://twitter.com/AndrewStellman)
 
+And if you want to do a deeper dive on C# concepts, check out **Head First C#** *(O'Reilly 2021)*, my popular book published by [O'Reilly](https://oreilly.com). The animal matching game comes from the first chapter of the book. [Download the first for chapters for free today!](https://github.com/head-first-csharp/fourth-edition)
+
+![Head First C#, 4rd Edition – cover](https://github.com/head-first-csharp/fourth-edition/raw/master/Head_First_C%23_4e_cover.png)
+
+## License and Copyright
+
+All of the source code and graphics used by the source code is licensed under the [MIT License](https://github.com/head-first-csharp/fourth-edition/blob/master/LICENSE).
+
+PDFs, cover, and other written book material © 2021 Andrew Stellman and Jennifer Greene, all rights reserved.
+
+Cover art by [Jose Marzan Jr.](http://josemarzan.com/) ([@JoseMarzan](https://twitter.com/JoseMarzan)).
+
+The O’Reilly logo is a registered trademark of O’Reilly Media, Inc. The Head First series designations, Head First C#, and related trade dress are trademarks of O’Reilly Media, Inc.
