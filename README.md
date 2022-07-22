@@ -24,6 +24,12 @@ To make it easier, the code from each slide is copied into separate pages, divid
 * [The My_Web_API project in Part 4](https://github.com/andrewstellman/blazor-training/blob/main/7-my-web-api.md)
 * [The fourth part of the AnimalMatchingGame project in Part 4, going full stack](https://github.com/andrewstellman/blazor-training/blob/main/8-animal-matching-part-4.md)
 
+## Look at the code
+
+The code for all of the projects we created during the training session can be found here: [Code](https://github.com/andrewstellman/blazor-training/tree/main/Code)
+
+There are also links to the source code for individual projects in the files with code to copy and paste.
+
 **All of the code in this presentation is open source, so you can use it for your own projects.**
 
 ## Follow me to learn more!
