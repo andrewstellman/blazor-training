@@ -1,4 +1,4 @@
-# Part 2 - Using Blazor in a bigger app
+# Console Math Quiz App (from Part 2)
 
 Here's all of the code that you can copy and paste for the math quiz console app project in Part 2. Each slide in the training deck has a corresponding section in this page. 
 
