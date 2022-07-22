@@ -2,6 +2,8 @@
 
 Here's all of the code that you can copy and paste for the AnimalMatchingGame_Server project in Part 4, going full stack. Each slide in the training deck has a corresponding section in this page.
 
+The full code for this project can be found here: [AnimalMatchingGame_Server](https://github.com/andrewstellman/blazor-training/tree/main/Code/AnimalMatchingGame_Server)
+
 ## Add Swagger to your ASP.NET Core Blazor Server app
 
 ```c#
