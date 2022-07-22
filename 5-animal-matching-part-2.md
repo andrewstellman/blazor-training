@@ -1,6 +1,8 @@
 # Animal Matching Game (part 2)
 
-Here's all of the code that you can copy and paste for the second part of the AnimalMatchingGame project in Part 3, adding mouse clicks. Each slide in the training deck has a corresponding section in this page.
+Here's all of the code that you can copy and paste for the **second** part of the AnimalMatchingGame project in Part 3, adding mouse clicks. Each slide in the training deck has a corresponding section in this page.
+
+The full code for this project can be found here: [AnimalMatchingGame_part_2](https://github.com/andrewstellman/blazor-training/tree/main/Code/AnimalMatchingGame_part_2)
 
 ## Add code to shuffle the animals
 
