@@ -1,0 +1,21 @@
+﻿@page "/counter"
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+<h4>Updated at @timestamp</h4>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+    private string timestamp = DateTime.Now.ToLongTimeString();
+
+    private void IncrementCount()
+    {
+        currentCount++;
+        timestamp = DateTime.Now.ToLongTimeString();
+    }
+}

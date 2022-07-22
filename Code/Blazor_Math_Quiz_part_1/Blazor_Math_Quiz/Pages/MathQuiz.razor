@@ -1,0 +1,28 @@
+﻿@page "/mathquiz"
+
+<PageTitle>Math Quiz</PageTitle>
+
+<div class="container">
+    <div class="row">
+        <h1>Math quiz!</h1>
+    </div>
+    <div class="row mt-2">
+        <div class="col-2">
+            @q.N1 @q.Operator @q.N2 =
+        </div>
+        <div class="col-2">
+            <input type="text" class="form-control"
+            @bind="q.Answer"/>
+        </div>
+        <div class="col-6">
+            @if (q.Check())
+            {
+                <span>Correct!</span>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    private Question q = new();
+}

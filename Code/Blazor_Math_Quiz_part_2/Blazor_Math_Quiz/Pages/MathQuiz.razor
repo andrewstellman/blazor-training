@@ -1,0 +1,67 @@
+﻿@page "/mathquiz"
+
+<PageTitle>Math Quiz</PageTitle>
+
+<div class="container">
+    <div class="row">
+        <h1>Math quiz!</h1>
+    </div>
+    @foreach (Question q in questions) {
+        <div class="row mt-2">
+            <div class="col-2">
+                @q.N1 @q.Operator @q.N2 =
+            </div>
+            <div class="col-2">
+                <input type="text" class="form-control"
+                @bind="q.Answer"/>
+            </div>
+            <div class="col-6">
+                @if (q.Check())
+                {
+                    <span>Correct!</span>
+                }
+            </div>
+        </div>
+    }
+    <div class="row mt-5">
+        <div class="col-6">
+            @{
+                var numberCorrect = NumberCorrect();
+            }
+            @if(numberCorrect < QUESTION_COUNT)
+            {
+                <h6>
+                    @numberCorrect out of @QUESTION_COUNT
+                </h6>
+            } else
+            {
+                <button class="btn btn-primary"
+                        @onclick="GenerateQuestions">
+                    Generate New Quiz
+                </button>
+            }
+        </div>
+    </div>
+</div>
+
+@using System.Linq
+
+@code {
+    private int NumberCorrect() =>
+            questions.Where(q => q.Check()).Count();
+
+    private List<Question> questions = new();
+    private const int QUESTION_COUNT = 6;
+
+    private void GenerateQuestions()
+    {
+        questions.Clear();
+        for (int i = 0; i < QUESTION_COUNT; i++)
+            questions.Add(new());
+    }
+
+    protected override void OnInitialized()
+    {
+        GenerateQuestions();
+    }
+}

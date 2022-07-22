@@ -1,0 +1,62 @@
+﻿@page "/controls"
+
+<PageTitle>Experiment with Controls</PageTitle>
+
+<h3>Controls</h3>
+
+<div class="container">
+    <div class="row">
+        <h1>Experiment with controls</h1>
+    </div>
+    <div class="row mt-2">
+        <div class="col">
+            Enter text:
+        </div>
+        <div class="col">
+            <input type="text" class="form-control"
+            @onchange="UpdateValue"/>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col">
+            <h2>
+                Here's the value: <strong>@displayValue</strong>
+            </h2>
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col">
+            Pick a number:
+        </div>
+        <div class="col">
+            <input type="range" class="form-control" 
+            @onchange="UpdateNumericValue"/>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col">
+            <h2>
+                Here's the value: <strong>@displayValue</strong>
+            </h2>
+        </div>
+    </div>
+</div>
+
+@code {
+
+    private string displayValue = "";
+
+    private void UpdateValue(ChangeEventArgs e)
+    {
+        displayValue = e.Value.ToString();
+    }
+
+    private void UpdateNumericValue(ChangeEventArgs e)
+    {
+        if (int.TryParse(e.Value.ToString(), out int result))
+        {
+            displayValue = result.ToString();
+        }
+    }
+
+}
