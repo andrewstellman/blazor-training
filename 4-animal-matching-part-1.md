@@ -1,4 +1,6 @@
-# Here's all of the code that you can copy and paste for the first part of the AnimalMatchingGame project in Part 2. Each slide in the training deck has a corresponding section in this page.
+# Animal Matching Game (part 1)
+
+Here's all of the code that you can copy and paste for the first part of the AnimalMatchingGame project in Part 2. Each slide in the training deck has a corresponding section in this page.
 
 ## Add a List of animal emoji to the page’s @code
 
