@@ -1,6 +1,6 @@
 # Part 1 - Digging into Blazor code
 
-Here's all of the code that you can copy and paste for the My_First_Blazor_App project in Part 1.
+Here's all of the code that you can copy and paste for the My_First_Blazor_App project in Part 1. Each slide in the training deck has a corresponding section in this page.
 
 ## Spin up your first Blazor app
 
