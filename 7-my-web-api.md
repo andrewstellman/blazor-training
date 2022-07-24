@@ -2,6 +2,8 @@
 
 Here's all of the code that you can copy and paste for the My_Web_API project in Part 4. Each slide in the training deck has a corresponding section in this page.
 
+The full code for this project can be found here: [My_Web_API](https://github.com/andrewstellman/blazor-training/tree/main/Code/My_Web_API)
+
 ## Add a “Hello, world!” endpoint
 
 ```c#

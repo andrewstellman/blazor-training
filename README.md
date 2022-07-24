@@ -24,9 +24,28 @@ To make it easier, the code from each slide is copied into separate pages, divid
 * [The My_Web_API project in Part 4](https://github.com/andrewstellman/blazor-training/blob/main/7-my-web-api.md)
 * [The fourth part of the AnimalMatchingGame project in Part 4, going full stack](https://github.com/andrewstellman/blazor-training/blob/main/8-animal-matching-part-4.md)
 
+## Look at the code
+
+The code for all of the projects we created during the training session can be found here: [Code](https://github.com/andrewstellman/blazor-training/tree/main/Code)
+
+There are also links to the source code for individual projects in the files with code to copy and paste.
+
 **All of the code in this presentation is open source, so you can use it for your own projects.**
 
 ## Follow me to learn more!
 
 Interested in learning more? Follow me on Twitter: [@AndrewStellman](https://twitter.com/AndrewStellman)
 
+And if you want to do a deeper dive on C# concepts, check out **Head First C#** *(O'Reilly 2021)*, my popular book published by [O'Reilly](https://oreilly.com). The animal matching game comes from the first chapter of the book. [Download the first for chapters for free today!](https://github.com/head-first-csharp/fourth-edition)
+
+![Head First C#, 4rd Edition – cover](https://github.com/head-first-csharp/fourth-edition/raw/master/Head_First_C%23_4e_cover.png)
+
+## License and Copyright
+
+All of the source code and graphics used by the source code is licensed under the [MIT License](https://github.com/head-first-csharp/fourth-edition/blob/master/LICENSE).
+
+Slides, source code, and written material © 2022 Stellman and Greene consulting LLC, all rights reserved.
+
+Cover art by [Jose Marzan Jr.](http://josemarzan.com/) ([@JoseMarzan](https://twitter.com/JoseMarzan)).
+
+The O’Reilly logo is a registered trademark of O’Reilly Media, Inc. The Head First series designations, Head First C#, and related trade dress are trademarks of O’Reilly Media, Inc.

@@ -2,6 +2,8 @@
 
 Here's all of the code that you can copy and paste for the math quiz console app project in Part 2. Each slide in the training deck has a corresponding section in this page. 
 
+The full code for this project can be found here: [Math_Quiz_Console_App](https://github.com/andrewstellman/blazor-training/tree/main/Code/Math_Quiz_Console_App)
+
 ## The Question class generates questions and checks answers
 
 ```c#

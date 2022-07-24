@@ -2,6 +2,10 @@
 
 Here's all of the code that you can copy and paste for the Blazor_Math_Quiz project in Part 2. Each slide in the training deck has a corresponding section in this page.
 
+The full code for this project can be found here: 
+* The version with one question is here: [Blazor_Math_Quiz_part_1](https://github.com/andrewstellman/blazor-training/tree/main/Code/Blazor_Math_Quiz_part_1)
+* The updated version with six questions is here: [Blazor_Math_Quiz_part_2](https://github.com/andrewstellman/blazor-training/tree/main/Code/Blazor_Math_Quiz_part_2)
+
 ## Create a new Blazor app and update the navigation menu
 
 ```razor
