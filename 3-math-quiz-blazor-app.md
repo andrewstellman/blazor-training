@@ -72,10 +72,7 @@ namespace Blazor_Math_Quiz
             <input type="text" class="form-control"/>
         </div>
         <div class="col-6">
-            @if (q.Check())
-            {
-                <span>Correct!</span>
-            }
+            What's the answer?
         </div>
     </div>
 ```
