@@ -25,6 +25,12 @@ The full code for this project can be found here: [AnimalMatchingGame_part_2](ht
     }
 ```
 
+## Modify the @foreach loop to use the shuffled emoji
+
+```razor
+@foreach (var animal in shuffledAnimals)
+```
+
 ## Add a click event handler method
 
 ```c#
