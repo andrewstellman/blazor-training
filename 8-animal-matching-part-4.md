@@ -62,6 +62,10 @@ public static class ScoreTracker
 }
 ```
 
+```c#
+app.MapGet("/scoretracker", ScoreTracker.SubmitScore);
+```
+
 ## Update Index.razor to display the message and start updating the code
 
 ```razor
