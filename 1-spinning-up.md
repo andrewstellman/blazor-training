@@ -38,10 +38,10 @@ Change the HTML markup to style the timestamp differently – try each of these:
 ```razor
 @page "/controls"
 
-### Add the component to the navigation menu
-
 <PageTitle>Experiment with Controls</PageTitle>
 ```
+
+### Add the component to the navigation menu
 
 ```razor
         <div class="nav-item px-3">

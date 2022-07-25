@@ -69,14 +69,10 @@ namespace Blazor_Math_Quiz
             @q.N1 @q.Operator @q.N2 =
         </div>
         <div class="col-2">
-            <input type="text" class="form-control"
-            @bind="q.Answer"/>
+            <input type="text" class="form-control"/>
         </div>
         <div class="col-6">
-            @if (q.Check())
-            {
-                <span>Correct!</span>
-            }
+            What's the answer?
         </div>
     </div>
 ```
