@@ -14,7 +14,7 @@ app.MapGet("/hello",
 ## Your APIs can use classes, and you can debug the code
 
 ```c#
-app.MapGet("/getobject", () => new { Value = 123, GhostSays = "Boo", Cow = "🐄" });
+app.MapGet("/random", () => RandomNumber.Value);
 ```
 
 ```c#
