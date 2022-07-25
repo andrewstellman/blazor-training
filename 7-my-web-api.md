@@ -11,6 +11,25 @@ app.MapGet("/hello",
      () => "Hello world!");
 ```
 
+## Your APIs can use classes, and you can debug the code
+
+```c#
+app.MapGet("/getobject", () => new { Value = 123, GhostSays = "Boo", Cow = "🐄" });
+```
+
+```c#
+static class RandomNumber
+{
+    public static string Value
+    {
+        get
+        {
+            return Random.Shared.Next().ToString();
+        }
+    }
+}
+```
+
 ## Your APIs can take parameters
 
 ```c#
