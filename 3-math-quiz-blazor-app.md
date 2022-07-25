@@ -49,13 +49,21 @@ namespace Blazor_Math_Quiz
         }
 
         public int N1 { get; private set; }
+
         public string Operator { get; private set; }
+
         public int N2 { get; private set; }
 
-        public bool Check(int answer)
+        public string? Answer { get; set; }
+
+        public bool Check()
         {
-            if (Operator == "+") return (answer == N1 + N2);
-            else return (answer == N1 * N2);
+            if (int.TryParse(Answer, out int i))
+            {
+                if (Operator == "+") return (i == N1 + N2);
+                else return (i == N1 * N2);
+            }
+            else return false;
         }
     }
 }
