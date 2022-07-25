@@ -91,7 +91,7 @@ namespace Blazor_Math_Quiz
 ## Use a Blazor conditional to display a message
 
 ```razor
-   @if (q.Check())
+    @if (q.Check())
     {
         <span>Correct!</span>
     }
