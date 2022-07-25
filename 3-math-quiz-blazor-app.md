@@ -164,10 +164,10 @@ protected override void OnInitialized()
 ```razor
 <div class="row mt-5">
     <div class="col-6">
-        @if(numberCorrect < QUESTION_COUNT)
+        @if(NumberCorrect() < QUESTION_COUNT)
         {
             <h6>
-                @numberCorrect out of @QUESTION_COUNT
+                @NumberCorrect() out of @QUESTION_COUNT
             </h6>
         } else
         {
