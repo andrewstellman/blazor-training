@@ -4,6 +4,12 @@
 
 Welcome to my Blazor training course! Here you'll find the latest slides, code, and other supporting materials.
 
+## Reserve your slot at the next O'Reilly Live Training sesssion!
+
+The next Blazor Fundamentals workshop is scheduled for February 10, 2023. I'd love to see you there!
+
+Here's a direct link to the O'Reilly Live Training listing: [Blazor Fundamentals... a fast-paced workshop for building interactive web apps in C# – February 10, 2023](https://learning.oreilly.com/live-events/blazor-fundamentals/0636920074225/0636920086649/)
+
 ## Download the slides
 
 <img width="1195" alt="image" src="https://user-images.githubusercontent.com/7516297/180501670-5b47e498-410d-415c-85c0-dd244e4fe5bf.png">
