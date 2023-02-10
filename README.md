@@ -14,7 +14,7 @@ Here's a direct link to the O'Reilly Live Training listing: [Blazor Fundamentals
 
 <img width="1195" alt="image" src="https://user-images.githubusercontent.com/7516297/180501670-5b47e498-410d-415c-85c0-dd244e4fe5bf.png">
 
-You can download a PDF of the slide deck here: [Blazor_Training_2022-07-27.pdf](https://github.com/andrewstellman/blazor-training/raw/main/Blazor_Training_2022-07-27.pdf)
+You can download a PDF of the slide deck here: [Blazor_Training_2022-02-10.pdf](https://github.com/andrewstellman/blazor-training/raw/main/Blazor_Training_2023-02-10.pdf)
 
 ## Copy and paste code for the exercises
 
