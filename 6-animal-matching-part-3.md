@@ -13,9 +13,6 @@ The full code for this project can be found here: [AnimalMatchingGame_part_3](ht
 ```
 
 ```razor
-@using System.Linq
-@using System.Timers
-
 @code {
 
     Timer timer = new Timer(100);

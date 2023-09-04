@@ -7,8 +7,6 @@ The full code for this project can be found here: [AnimalMatchingGame_part_2](ht
 ## Add code to shuffle the animals
 
 ```razor
-@using System.Linq
-
 @code {
 
     List<string> shuffledAnimals = new();
