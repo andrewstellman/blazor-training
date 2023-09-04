@@ -4,6 +4,21 @@ Here's all of the code that you can copy and paste for the AnimalMatchingGame_Se
 
 The full code for this project can be found here: [AnimalMatchingGame_Server](https://github.com/andrewstellman/blazor-training/tree/main/Code/AnimalMatchingGame_Server)
 
+## The difference between a Blazor Web App and a WebAssembly App in an nutshell
+
+```razor
+<h1>Does this value change? ➡️ @value</h1>
+@code {
+    int value = MyValue.Value;
+
+    public static class MyValue
+    {
+        private static int i = 1;
+        public static int Value => ++i;
+    }
+}
+```
+
 ## Add Swagger to your ASP.NET Core Blazor Server app
 
 ```c#
