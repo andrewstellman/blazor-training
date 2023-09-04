@@ -101,6 +101,7 @@ app.MapGet("/scoretracker", ScoreTracker.SubmitScore);
 ```
 
 ```razor
+@using System.Timers
 @inject HttpClient Http
 
 @code {

@@ -14,7 +14,7 @@ The full code for this project can be found here: [AnimalMatchingGame_part_3](ht
 
 ```razor
 
-@using System.Timers;
+@using System.Timers
 
 @code {
 
