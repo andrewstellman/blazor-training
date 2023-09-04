@@ -19,6 +19,12 @@ The full code for this project can be found here: [AnimalMatchingGame_Server](ht
 }
 ```
 
+## Copy the Index.razor component and paste it into your app
+
+```razor
+@attribute [RenderModeServer]
+```
+
 ## Add Swagger to your ASP.NET Core Blazor Server app
 
 ```c#
