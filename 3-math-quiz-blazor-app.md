@@ -146,22 +146,14 @@ protected override void OnInitialized()
 }
 ```
 
-## Add a method that needs a using statement
-
-```razor
-@using System.Linq
-
-@code {
-    private int NumberCorrect() =>
-            questions.Where(q => q.Check()).Count();
-
-    private List<Question> questions = new();
-    private const int QUESTION_COUNT = 6;
-```
-
 ## Use an @if directive with an else to display either text or a button.
 
 ```razor
+@code {
+    private int NumberCorrect() =>
+            questions.Where(q => q.Check()).Count();
+}
+
 <div class="row mt-5">
     <div class="col-6">
         @if(NumberCorrect() < QUESTION_COUNT)
