@@ -48,6 +48,10 @@ if (app.Environment.IsDevelopment())
 
 ## Create an HTTP client and inject it into your Blazor app
 
+```razor
+@inject HttpClient Http
+```
+
 ```c#
 builder.Services.AddHttpClient();
 
