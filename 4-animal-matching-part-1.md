@@ -51,7 +51,7 @@ The full code for this project can be found here: [AnimalMatchingGame_part_1](ht
     .container {
         width: 400px; 
     }
-        button {
+   button {
         width: 100px;
         height: 100px;
         font-size: 50px; 
