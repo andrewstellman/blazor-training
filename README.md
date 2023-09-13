@@ -6,15 +6,15 @@ Welcome to my Blazor training course! Here you'll find the latest slides, code, 
 
 ## Reserve your slot at the next O'Reilly Live Training sesssion!
 
-The next Blazor Fundamentals workshop is scheduled for February 10, 2023. I'd love to see you there!
+The next Blazor Fundamentals workshop is scheduled for September 15, 2023. I'd love to see you there!
 
-Here's a direct link to the O'Reilly Live Training listing: [Blazor Fundamentals... a fast-paced workshop for building interactive web apps in C# – February 10, 2023](https://learning.oreilly.com/live-events/blazor-fundamentals/0636920074225/0636920086649/)
+Here's a direct link to the O'Reilly Live Training listing: [Full Stack Development with C# and Blazor - A fast-paced workshop for building interactive web apps in C#](https://www.oreilly.com/live-events/full-stack-development-with-c-and-blazor/0636920074225/0636920093926/)
 
 ## Download the slides
 
 <img width="1195" alt="image" src="https://user-images.githubusercontent.com/7516297/180501670-5b47e498-410d-415c-85c0-dd244e4fe5bf.png">
 
-You can download a PDF of the slide deck here: [Blazor_Training_2022-02-10.pdf](https://github.com/andrewstellman/blazor-training/raw/main/Blazor_Training_2023-02-10.pdf)
+You can download a PDF of the slide deck here: [Blazor_Training_2023-09-15.pdf](https://github.com/andrewstellman/blazor-training/raw/main/Blazor_Training_2023-09-15.pdf)
 
 ## Copy and paste code for the exercises
 
@@ -50,7 +50,7 @@ And if you want to do a deeper dive on C# concepts, check out **Head First C#** 
 
 All of the source code and graphics used by the source code is licensed under the [MIT License](https://github.com/head-first-csharp/fourth-edition/blob/master/LICENSE).
 
-Slides, source code, and written material © 2022 Stellman and Greene consulting LLC, all rights reserved.
+Slides, source code, and written material © 2023 Stellman and Greene consulting LLC, all rights reserved.
 
 Cover art by [Jose Marzan Jr.](http://josemarzan.com/) ([@JoseMarzan](https://twitter.com/JoseMarzan)).
 
