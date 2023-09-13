@@ -2,31 +2,33 @@
 
 <PageTitle>Animal Matching Game</PageTitle>
 
-<style> 
+<style>
+
     .container {
-        width: 400px; 
+        width: 400px;
     }
-        button {
+
+    button {
         width: 100px;
         height: 100px;
-        font-size: 50px; 
+        font-size: 50px;
     }
 </style>
 
 <div class="container">
     <div class="row">
-        @for (var animalNumber = 0; 
-              animalNumber < shuffledAnimals.Count; 
-              animalNumber++)
+        @for (var animalNumber = 0;
+        animalNumber < shuffledAnimals.Count;
+        animalNumber++)
         {
             var animal = shuffledAnimals[animalNumber];
-            var uniqueDescription = 
-                   $"Button #{animalNumber}";
+            var uniqueDescription =
+            $"Button #{animalNumber}";
             <div class="col-3">
-                <button type="button" 
-                @onclick="@(() => 
-                    ButtonClick(animal, uniqueDescription))"
-                class="btn btn-outline-dark">
+                <button type="button"  
+                @onclick="@(() => 
+                    ButtonClick(animal, uniqueDescription))"
+                                class="btn btn-outline-dark">
                     <h1>@animal</h1>
                 </button>
             </div>
@@ -41,7 +43,6 @@
 </div>
 
 
-@using System.Linq
 @using System.Timers
 
 @code {
@@ -56,8 +57,8 @@
     private void SetUpGame()
     {
         shuffledAnimals = animalEmoji
-            .OrderBy(item => Random.Shared.Next())
-            .ToList();
+          .OrderBy(item => Random.Shared.Next())
+          .ToList();
         matchesFound = 0;
         timer = new Timer(100);
         timer.Elapsed += Timer_Elapsed;
@@ -69,17 +70,17 @@
         SetUpGame();
     }
 
-    List<string> animalEmoji = new List<string>()
-    {
-        "🐶","🐶",
-        "🐺","🐺",
-        "🐮","🐮",
-        "🦊","🦊",
-        "🐱","🐱",
-        "🦁","🦁",
-        "🐯","🐯",
-        "🐹","🐹",
-    };
+    List<string> animalEmoji = new()
+  {
+    "🐶","🐶",
+    "🐺","🐺",
+    "🐮","🐮",
+    "🦊","🦊",
+    "🐱","🐱",
+    "🦁","🦁",
+    "🐯","🐯",
+    "🐹","🐹",
+  };
 
     string lastAnimalFound = string.Empty;
     string lastDescription = string.Empty;
@@ -92,27 +93,24 @@
             lastDescription = animalDescription;
             timer.Start();
         }
-
         else if ((lastAnimalFound == animal)
-                 && (animalDescription != lastDescription))
+              && (animalDescription != lastDescription))
         {
             // Match found! Reset for next pair.
             lastAnimalFound = string.Empty;
 
             // Replace found animals with empty string to hide them.
             shuffledAnimals = shuffledAnimals
-                .Select(a => a.Replace(animal, string.Empty))
-                .ToList();
-
+          .Select(a => a.Replace(animal, string.Empty))
+          .ToList();
             matchesFound++;
             if (matchesFound == 8)
             {
                 timer.Stop();
-                timeDisplay += " - Play again?";
+                timeDisplay += " - Play Again?";
                 SetUpGame();
             }
         }
-
         else
         {
             // User selected a pair that don't match, reset selection.
@@ -124,15 +122,14 @@
                         ElapsedEventArgs e)
     {
         InvokeAsync(
-            () =>
-            {
-                tenthsOfSecondsElapsed++;
-                timeDisplay =
-                       (tenthsOfSecondsElapsed / 10F)
-                           .ToString("0.0s");
-                StateHasChanged();
-            }
+          () =>
+          {
+              tenthsOfSecondsElapsed++;
+              timeDisplay =
+                 (tenthsOfSecondsElapsed / 10F)
+               .ToString("0.0s");
+              StateHasChanged();
+          }
         );
     }
-
 }

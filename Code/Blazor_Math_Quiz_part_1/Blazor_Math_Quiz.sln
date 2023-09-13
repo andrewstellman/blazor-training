@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.1.32210.238
+VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor_Math_Quiz", "Blazor_Math_Quiz\Blazor_Math_Quiz.csproj", "{5763BD30-7E8B-418A-8E8B-499E0156B1D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor_Math_Quiz", "Blazor_Math_Quiz\Blazor_Math_Quiz.csproj", "{813AF5A4-B552-4251-A555-48040AF40974}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5763BD30-7E8B-418A-8E8B-499E0156B1D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5763BD30-7E8B-418A-8E8B-499E0156B1D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5763BD30-7E8B-418A-8E8B-499E0156B1D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5763BD30-7E8B-418A-8E8B-499E0156B1D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813AF5A4-B552-4251-A555-48040AF40974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813AF5A4-B552-4251-A555-48040AF40974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813AF5A4-B552-4251-A555-48040AF40974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813AF5A4-B552-4251-A555-48040AF40974}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2F2CC64A-ED3C-4DCE-B703-980FEBAD9A02}
+		SolutionGuid = {A34F5745-F58C-46D9-85AF-DBFA58FFA7DF}
 	EndGlobalSection
 EndGlobal

@@ -22,7 +22,8 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.MapGet("/hello", () => "Hello world!");
+app.MapGet("/hello",
+     () => "Hello world!");
 
 app.MapGet("/random", () => RandomNumber.Value);
 
@@ -30,9 +31,11 @@ int TimesThree(int value)
 {
     return value * 3;
 }
+
 app.MapGet("/times_three", TimesThree);
 
-app.MapGet("/getobject", () => new { Value = 123, GhostSays = "Boo", Cow = "🐄" });
+app.MapGet("/getobject", () =>
+  new { Value = 123, GhostSays = "Boo", Cow = "🐄" });
 
 app.Run();
 

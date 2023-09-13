@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.1.32210.238
+VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math_Quiz_Console_App", "Math_Quiz_Console_App\Math_Quiz_Console_App.csproj", "{4EA6D4F3-14B0-43F9-BB10-56F802AE70CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math_Quiz_Console_App", "Math_Quiz_Console_App\Math_Quiz_Console_App.csproj", "{BBC27B61-9C62-457E-8162-9B431A2D660B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4EA6D4F3-14B0-43F9-BB10-56F802AE70CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4EA6D4F3-14B0-43F9-BB10-56F802AE70CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4EA6D4F3-14B0-43F9-BB10-56F802AE70CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4EA6D4F3-14B0-43F9-BB10-56F802AE70CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBC27B61-9C62-457E-8162-9B431A2D660B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC27B61-9C62-457E-8162-9B431A2D660B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBC27B61-9C62-457E-8162-9B431A2D660B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBC27B61-9C62-457E-8162-9B431A2D660B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E748FED0-FBCA-4580-9EF7-9E05CEA5D59A}
+		SolutionGuid = {646F0CD0-FA0D-4477-B729-7A48A99C5BE0}
 	EndGlobalSection
 EndGlobal

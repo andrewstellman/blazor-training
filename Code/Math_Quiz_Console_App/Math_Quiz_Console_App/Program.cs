@@ -1,4 +1,6 @@
-﻿Question quiz = new();
+﻿using Math_Quiz_Console_App;
+
+Question quiz = new();
 while (true)
 {
     Console.Write($"{quiz.N1} {quiz.Operator} {quiz.N2} = ");

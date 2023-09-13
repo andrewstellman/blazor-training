@@ -1,11 +1,5 @@
 ﻿namespace Blazor_Math_Quiz
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-
     class Question
     {
         public Question()
@@ -16,8 +10,11 @@
         }
 
         public int N1 { get; private set; }
+
         public string Operator { get; private set; }
+
         public int N2 { get; private set; }
+
         public string? Answer { get; set; }
 
         public bool Check()
@@ -30,5 +27,4 @@
             else return false;
         }
     }
-
 }
