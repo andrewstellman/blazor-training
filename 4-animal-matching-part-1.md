@@ -48,14 +48,14 @@ The full code for this project can be found here: [AnimalMatchingGame_part_1](ht
 
 ```razor
 <style> 
-    .container {
-        width: 400px; 
-    }
-   button {
-        width: 100px;
-        height: 100px;
-        font-size: 50px; 
-    }
+     .container {
+        width: 400px;
+    }
+    button {
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+    }
 </style>
 ```
 
